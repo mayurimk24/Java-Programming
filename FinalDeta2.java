@@ -1,0 +1,18 @@
+class Demo{
+    public int i = 11;
+    final public int j = 21;
+
+}   
+
+class FinalDeta2
+{
+    public static void main(String []a)
+    {
+        Demo dobj = new Demo();
+        System.out.println(dobj.i);
+        System.out.println(dobj.j);
+
+        dobj.i++;
+      //  dobj.j++;   //Error
+    }
+}
